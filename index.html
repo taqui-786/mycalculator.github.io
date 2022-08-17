@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Project:1</h1>
+    <div class="cointainer">
+        <div class="calculator">
+            <div class="it active" id="hpage">
+            <div class="hdisplay"><h1>History</h1>
+            <p id="hdisplay"></p></div></div>
+           <div class="clogo"> <h1>Calculator</h1><div class="hist" onclick="openit()"></div>
+        </div>
+ <div class="result-box" id="r-box">
+                <div class="result" id="result"></div>
+            </div>
+            <div class="number-box">
+                <div class="number">
+<input type="button" class="button" value="1" onclick="number('1')">
+<input type="button" class="button" value="2" onclick="number('2')">
+<input type="button" class="button" value="3" onclick="number('3')">
+<input type="button" class="button" value="4" onclick="number('4')">
+<input type="button" class="button" value="5" onclick="number('5')">
+<input type="button" class="button" value="6" onclick="number('6')">
+<input type="button" class="button" value="7" onclick="number('7')">
+<input type="button" class="button" value="8" onclick="number('8')">
+<input type="button" class="button" value="9" onclick="number('9')">
+<input type="button" class="btn-zero" value="0" onclick="number('0')">
+<input type="button" class="btn-zero" value="." onclick="number('.')">
+</div> <div class="btn-operator">
+<input type="button" class="button-operate" value="+" onclick="number('+')">
+<input type="button" class="button-operate" value="-" onclick="number('-')">
+<input type="button" class="button-operate" value="*" onclick="number('*')">
+<input type="button" class="button-operate" value="/" onclick="number('/')">
+<input type="button" class="button-manage" value="<-" onclick="back()">
+<input type="button" class="button-manage" value="AC" onclick="cl()">
+ <input type="button" class="button-equal" value="=" onclick="output()">
+</div> 
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
